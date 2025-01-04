@@ -1,0 +1,16 @@
+github:
+  repository: https://github.com/yourusername/yourrepository.git
+  branch: main
+  commit_file: commits.log
+
+schedule:
+  start_time: "12:00"
+  end_time: "18:00"
+  timezone: "UTC"
+
+logging:
+  log_file: "auto_committer.log"
+  level: "INFO"
+
+security:
+  token_env_var: "GITHUB_TOKEN"
